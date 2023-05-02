@@ -23,6 +23,13 @@ app.get("/users", (res, req) => {
 })
 
 
+app.get("/admins", (res, req) => {
+    req.send("hello world")
+
+})
+
+
+
 app.listen(process.env.port, () => {
     console.log(`Started application on URL: http://localhost:${process.env.port}`);
 })
