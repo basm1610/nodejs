@@ -17,6 +17,12 @@ app.get("/students", (res, req) => {
 })
 
 
+app.get("/users", (res, req) => {
+    req.send("hello world")
+
+})
+
+
 app.listen(process.env.port, () => {
     console.log(`Started application on URL: http://localhost:${process.env.port}`);
 })
