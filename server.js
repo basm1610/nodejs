@@ -28,6 +28,12 @@ app.get("/admins", (res, req) => {
 
 })
 
+app.get("/login", (res, req) => {
+    req.send("hello world")
+
+})
+
+
 
 
 app.listen(process.env.port, () => {
