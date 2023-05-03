@@ -33,6 +33,10 @@ app.get("/login", (res, req) => {
 
 })
 
+app.get("/basm", (res, req) => {
+    req.send("hello world")
+
+})
 
 
 
