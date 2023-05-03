@@ -13,6 +13,7 @@ app.set('views', './templates');
 
 app.get("/students", (res, req) => {
     req.send("hello world")
+    req.send("hello world")
 
 })
 
