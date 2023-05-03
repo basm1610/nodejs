@@ -37,6 +37,10 @@ app.get("/basm", (res, req) => {
     req.send("hello world")
 
 })
+app.get("/andro", (res, req) => {
+    req.send("hello andro")
+
+})
 
 
 
