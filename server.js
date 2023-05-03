@@ -17,31 +17,6 @@ app.get("/students", (res, req) => {
 })
 
 
-app.get("/users", (res, req) => {
-    req.send("hello world")
-
-})
-
-
-app.get("/admins", (res, req) => {
-    req.send("hello world")
-
-})
-
-app.get("/login", (res, req) => {
-    req.send("hello world")
-
-})
-
-app.get("/basm", (res, req) => {
-    req.send("hello world")
-
-})
-app.get("/andro", (res, req) => {
-    req.send("hello andro")
-
-})
-
 
 
 app.listen(process.env.port, () => {
