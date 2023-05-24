@@ -11,6 +11,9 @@ app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
 app.set('views', './templates');
 
+// ++++++++ Using route of departments ++++++++ //
+app.use("/departments", routerDepartments);
+
 app.get("/students", (res, req) => {
     req.send("hello world")
     req.send("hello world")
